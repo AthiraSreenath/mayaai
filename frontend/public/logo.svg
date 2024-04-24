@@ -1,0 +1,8 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <!-- Left -->
+  <path style="fill: rgb(1, 162, 127);" d="M 40 133 L 40 368 L 249 486 L 249 251 L 40 133 Z"></path>
+  <!-- Right -->
+  <path style="fill: rgb(2, 179, 133);" d="M 449 133 L 449 368 L 249 486 L 249 251 L 449 133 Z"></path>
+  <!-- Top -->
+  <path style="fill: rgb(0, 222, 170);" d="M 249 14 L 40 133 L 249 251 L 449 133 L 249 14 Z"></path>
+</svg>
