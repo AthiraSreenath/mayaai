@@ -13,3 +13,5 @@ Start Server
 ```
 uvicorn backend.server:app
 ```
+
+TODO: Publish as docker image & pypi package for easy distribution. Add Makefile for building and publishing.
