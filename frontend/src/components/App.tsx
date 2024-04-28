@@ -8,6 +8,7 @@ import {
 
 import ThemeSetter from './ThemeSetter';
 import { ContextHandler } from './AppContext';
+import Header from './Header';
 
 
 export enum Routes {
@@ -19,6 +20,7 @@ export enum Routes {
 const AppLayout: () => JSX.Element = () => {
     return (
         <div className="App">
+            <Header />
             <Outlet />
         </div>
     );

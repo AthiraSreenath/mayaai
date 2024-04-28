@@ -28,3 +28,10 @@ input, textarea, select, button, img {
   -webkit-user-select: auto;
   cursor: auto;
 }
+
+ul { list-style-type: none; }
+
+a {
+    all: unset;
+    cursor: pointer;
+}
