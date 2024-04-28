@@ -5,6 +5,7 @@ import {
     RouterProvider,
     Outlet,
     redirect,
+    Navigate,
   } from "react-router-dom";
 
 import ThemeSetter from './ThemeSetter';
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
                 path: Routes.Datasets,
                 element: <h1>Datasets Page</h1>,
             },
+            {
+                path: "*",
+                element: <Navigate to="/" replace />
+            }
         ]
     },
 ]);
