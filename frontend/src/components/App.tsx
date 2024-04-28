@@ -9,6 +9,7 @@ import {
 
 import ThemeSetter from './ThemeSetter';
 import { ContextHandler } from './AppContext';
+import ErrorElement from './ErrorElement';
 import Header from './Header';
 
 
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
     {
         path: Routes.Home,
         Component: AppLayout,
+        errorElement: <ErrorElement />,
         loader: redirectHandler,
         children: [
             {
