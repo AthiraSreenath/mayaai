@@ -4,6 +4,7 @@ import {
     createBrowserRouter,
     RouterProvider,
     Outlet,
+    redirect,
   } from "react-router-dom";
 
 import ThemeSetter from './ThemeSetter';
@@ -26,10 +27,19 @@ const AppLayout: () => JSX.Element = () => {
     );
 }
 
+async function redirectHandler({request}: {request: Request}) {
+    const url = new URL(request.url)
+    if (url.pathname === Routes.Home) {
+        return redirect(Routes.Models);
+    }
+    return null
+}
+
 const router = createBrowserRouter([
     {
         path: Routes.Home,
         Component: AppLayout,
+        loader: redirectHandler,
         children: [
             {
                 path: Routes.Models,
