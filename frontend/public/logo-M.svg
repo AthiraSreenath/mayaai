@@ -1,0 +1,24 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="244.5" y1="14" x2="244.5" y2="251" id="gradient-0" gradientTransform="matrix(0.999999, 0.001807, -0.002136, 1.181997, 4.157151, -48.734896)">
+      <stop offset="0" style="stop-color: rgb(0% 87.059% 66.667%)"></stop>
+      <stop offset="1" style="stop-color: rgb(0% 51.093% 37.079%)"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="349" y1="133" x2="349" y2="486" id="gradient-1" gradientTransform="matrix(-0.861872, -0.507126, 0.502587, -0.854159, 472.709661, 798.231546)">
+      <stop offset="0" style="stop-color: rgb(0.7843% 70.196% 52.157%)"></stop>
+      <stop offset="1" style="stop-color: rgb(0% 41.871% 29.032%)"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="144.5" y1="133" x2="144.5" y2="486" id="gradient-2" gradientTransform="matrix(-0.844432, 0.535663, -0.533861, -0.841595, 456.132318, 538.656643)">
+      <stop offset="0" style="stop-color: rgb(0.3922% 63.529% 49.804%)"></stop>
+      <stop offset="1" style="stop-color: rgb(0% 38.184% 28.301%)"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="244.5" y1="133" x2="244.5" y2="427" id="gradient-4" gradientTransform="matrix(0.999973, 0.007373, -0.003687, 0.500169, 4.361192, 168.041763)">
+      <stop offset="0" style="stop-color: rgb(0.7843% 100% 76.863% / 0.345)"></stop>
+      <stop offset="1" style="stop-color: rgb(0% 58.167% 42.534% / 0.345)"></stop>
+    </linearGradient>
+  </defs>
+  <path style="fill: rgb(0, 130, 95);" d="M 40 133 L 40 368 L 249 486 L 249 251 L 40 133 Z"></path>
+  <path style="fill: rgb(2, 179, 133);" d="M 449 133 L 449 368 L 249 486 L 249 251 L 449 133 Z"></path>
+  <path style="fill: url(#gradient-0);" d="M 249 14 L 40 133 L 249 251 L 449 133 L 249 14 Z"></path>
+  <path style="fill: rgba(2, 255, 196, 0.39);" d="M 40.051 367.108 L 144 427 L 144 309 L 249 368 L 349 309 L 349 427 L 449 368 L 449 133 L 249 251 L 40 133 L 40 368 L 40.051 367.108 Z"></path>
+</svg>
