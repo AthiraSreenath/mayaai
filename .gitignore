@@ -35,6 +35,9 @@ MANIFEST
 # Mac OS
 .DS_Store
 
+# IDE
+.vscode/
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
